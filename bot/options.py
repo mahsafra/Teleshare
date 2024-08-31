@@ -17,12 +17,12 @@ class SettingsModel(BaseModel):
         BACKUP_FILES (bool): Whether to backup files.
     """
 
-    FORCE_SUB_MESSAGE: str | int = "Please join the channel(s) first."
-    START_MESSAGE: str | int = "I am a file-sharing bot."
+    FORCE_SUB_MESSAGE: str | int = "Please join the channel(s) first. { @Tamil_HDLatest_Movies & @Cinemas_Trend } Any Error @Mahsoommjm"
+    START_MESSAGE: str | int = "I am a file-sharing bot. Any Error @Mahsoommjm"
     USER_REPLY_TEXT: str | int = "idk"
-    AUTO_DELETE_MESSAGE: str | int = "This file(s) will be deleted within {} minutes"
+    AUTO_DELETE_MESSAGE: str | int = "This file(s) will be deleted within {} minutes . Download pana motha saved message ku forward panitu apuram download panunga ( forward before download to saved messages)"
     AUTO_DELETE_SECONDS: int = 300
-    GLOBAL_MODE: bool = False
+    GLOBAL_MODE: bool = True
     BACKUP_FILES: bool = True
 
 
