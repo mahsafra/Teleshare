@@ -17,7 +17,7 @@ class SettingsModel(BaseModel):
         BACKUP_FILES (bool): Whether to backup files.
     """
 
-    FORCE_SUB_MESSAGE: str | int = "Please join the channel(s) first. { @Tamil_HDLatest_Movies & @Cinemas_Trend } Any Error @Mahsoommjm"
+    FORCE_SUB_MESSAGE: str | int = "Please join the channel(s) first. { @TODAY_CINEMAZ } Any Error @Mahsoommjm"
     START_MESSAGE: str | int = "I am a file-sharing bot. Any Error @Mahsoommjm"
     USER_REPLY_TEXT: str | int = "idk"
     AUTO_DELETE_MESSAGE: str | int = "This file(s) will be deleted within {} minutes . Download pana motha saved message ku forward panitu apuram download panunga ( forward before download to saved messages)"
